@@ -1,5 +1,29 @@
-
-4)<img width="298" height="107" alt="image" src="https://github.com/user-attachments/assets/793dd997-4240-4a30-aabb-b235205850f8" />
-<img width="346" height="125" alt="image" src="https://github.com/user-attachments/assets/20df48c9-8e3c-4798-9196-912388c694b9" />
-<img width="473" height="151" alt="image" src="https://github.com/user-attachments/assets/5cd51bc3-0b41-4d5a-989a-4766f0c57620" />
-
+# Лабораторная работа 1
+## Задание 1
+![name=input()
+age=int(input())
+print("Привет,"+name+" через год тебе будет "+(str((age+1))))
+](./images/01.png) 
+## Задание 2
+![a=input("a: ").replace(",",".")
+b=input("b: ").replace(",",".")
+a=float(a)
+b=float(b)
+s=a+b
+avg=s/2
+print(s,avg)](./images/02.png)
+## Задание 3
+![price=float(input("price: "))
+discount=float(input("discount: "))
+vat=float(input("vat: "))
+baza=price*(1-discount/100)
+nds=baza*(vat/100)
+itog=baza+nds
+print("База: "+(str(baza)))
+print("НДС: "+(str(nds)))
+print("Итог: "+(str(itog)))](./images/03.png)
+## Задание 4
+![m=int(input())
+ch=m//60
+mm=m%60
+print(ch,":",mm)](./images/04.png)
