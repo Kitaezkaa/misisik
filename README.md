@@ -27,3 +27,11 @@ print("Итог: "+(str(itog)))](./images/03.png)
 ch=m//60
 mm=m%60
 print(ch,":",mm)](./images/04.png)
+## Задание 5
+![fio=input("ФИО: ")
+fio_stripped=fio.strip()
+length=len(fio_stripped)
+fio_pr=fio_stripped.split()
+initials=''.join([word[0].upper() for word in fio_pr])
+print("Инициалы: ",initials)
+print("Длина: ",length)](./images/05.png)
