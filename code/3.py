@@ -1,3 +1,4 @@
+##Задание 3
 price=float(input("price: "))
 discount=float(input("discount: "))
 vat=float(input("vat: "))
