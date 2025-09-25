@@ -35,7 +35,7 @@ print("Итог: "+(str(itog)))
 m=int(input())
 ch=m//60
 mm=m%60
-print(ch,":",mm)
+print(f"{ch}:{(mm-60*ch):02d}")
 ```
 ![04](./images/04.png)
 ## Задание 5
