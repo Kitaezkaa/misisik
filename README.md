@@ -40,12 +40,11 @@ print(f"{ch}:{(mm-60*ch):02d}")
 ![04](./images/04.png)
 ## Задание 5
 ```
-fio=input("ФИО: ")
-fio_stripped=fio.strip()
-length=len(fio_stripped)
-fio_pr=fio_stripped.split()
-initials=''.join([word[0].upper() for word in fio_pr])
-print("Инициалы: ",initials)
-print("Длина: ",length)
+name=input("ФИО: ").strip()
+part=name.split()
+length=len(''.join(part))+2
+ini=''.join([i[0].upper() for i in part])
+print(f"Инициалы: {ini}")
+print(f"Длина (символов): {length}")
 ```
 ![05](./images/05.png)
