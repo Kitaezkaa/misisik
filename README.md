@@ -133,6 +133,7 @@ print(col_sums([[0, 0], [0, 0]]))
 print(col_sums([[1, 2], [3]]))
 ```
 ![02](./images/lab2/lab2.2.png)
+## Задание 3
 ```
 from typing import Tuple
 
