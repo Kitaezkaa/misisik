@@ -156,3 +156,4 @@ def format_record(rec: StudentRecord) -> str:
     formatted_record = f"{formatted_surname} {initials}, гр. {group}, GPA {formatted_gpa}"
     return formatted_record
 ```
+![03](./images/lab2/lab2.3.png)
