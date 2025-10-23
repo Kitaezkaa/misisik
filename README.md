@@ -174,6 +174,7 @@ print(normalize("ёжик, Ёлка"))
 print(normalize("Hello\r\nWorld"))
 print(normalize("  двойные   пробелы  "))
 ```
+![01](./images/lab3.1.png)
 ## Задание А (tokenize)
 ```
 import re 
@@ -185,6 +186,7 @@ print(tokenize("по-настоящему круто"))
 print(tokenize("2025 год"))
 print(tokenize("emoji 😀 не слово"))
 ```
+![02](./images/lab3.2.png)
 ## Задание А (count_freq + top_n)
 ```
 def count_freq(tokens: list[str]) -> dict[str, int]:
@@ -209,6 +211,7 @@ tok_2 = ["bb", "aa", "bb", "aa", "cc"]
 freq_2 = count_freq(tok_2)
 print(top_n(freq_2, n=2))
 ```
+![03](./images/lab3.3.png)
 ## Задание B
 ```
 from lib.text import normalize, tokenize, count_freq, top_n
@@ -241,4 +244,5 @@ def main():
 if __name__ == "__main__":  
     main()
 ```
+![04](./images/lab3.4.png)
 
