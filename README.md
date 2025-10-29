@@ -282,7 +282,7 @@ def ensure_parent_dir(path: str | Path) -> None:
 print(read_text(r"C:\Users\Home\Documents\GitHub\lab_01\data\input.txt"))
 write_csv([("word","count"),("test",3)], r"C:\Users\Home\Documents\GitHub\lab_01\data\check.csv")
 ```
-
+![01](./images/lab4.1.png)
 ## Задание B
 ```
 from io_txt_csv import read_text, write_csv, ensure_parent_dir
@@ -321,5 +321,5 @@ def main(file: str, encoding: str = 'utf-8'):
 
 main(r'C:\Users\Home\Documents\GitHub\lab_01\data\input.txt')
 ```
-
+![02](./images/lab4.2.png)
 
