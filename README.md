@@ -406,6 +406,9 @@ def csv_to_json(csv_path: str, json_path: str) -> None:
 json_to_csv('scr/data/samples/people.json', 'scr/data/out/people_from_json.csv')
 csv_to_json('scr/data/samples/people.csv', 'scr/data/out/people_from_csv.json')
 ```
+![01](./images/lab5.1.1.png)
+![02](./images/lab5.1.2.png)
+![03](./images/lab5.1.3.png)
 ## Задание B
 ```
 from pathlib import Path
@@ -449,4 +452,5 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
     
 csv_to_xlsx('scr/data/samples/people.csv', 'scr/data/out/people.xlsx')
 ```
-
+![01](./images/lab5.2.1.png)
+![02](./images/lab5.2.2.png)
