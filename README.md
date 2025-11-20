@@ -511,7 +511,7 @@ if __name__ == "__main__":
     main()
 ```
 ![01](./images/lab6.1.1.png)
-![02](./images/Снимокэкрана2025-11-20033319.png)
+![02](./images/lab6.1.2.png)
 ![03](./images/lab6.1.3.png)
 ## Cli_convert
 ```
