@@ -510,6 +510,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+![01](./images/lab6.1.1.png)
+![02](./images/Снимокэкрана2025-11-20033319.png)
+![03](./images/lab6.1.3.png)
 ## Cli_convert
 ```
 import argparse
@@ -547,4 +550,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+![01](./images/lab6.2.1.png)
+![02](./images/lab6.2.2.png)
+![03](./images/lab6.2.3.png)
+![04](./images/lab6.2.4.png)
