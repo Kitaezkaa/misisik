@@ -711,5 +711,5 @@ def test_file_not_found_raises(func, tmp_path: Path):
 ## Black
 ![hihihaha](./images/lab7.black.png)
 ## Pytest -cov
-![blablabla](./images.lab7.cov1.png)
+![blablabla](./images/lab7.cov1.png)
 ![blublublu](./images/lab7.cov2.png)
