@@ -622,6 +622,8 @@ class TestText:
     def test_top_n(self, freq, n, expected):
         assert top_n(freq, n) == expected
 ```
+![01](./images/lab7.1.1.png)
+![02](./images/lab7.1.2.png)
 ## Задание 2
 ```
 import json
@@ -702,6 +704,12 @@ def test_file_not_found_raises(func, tmp_path: Path):
     with pytest.raises(FileNotFoundError):
         func(str(non_existent_path), str(dst))
 ```
+![01](./images/lab7.2.1.png)
+![02](./images/lab7.2.2.png)
 ## Pytest
+![lalala](./images/lab7.pytest.png)
 ## Black
+![hihihaha](./images/lab7.black.png)
 ## Pytest -cov
+![blablabla](./images.lab7.cov1.png)
+![blublublu](./images/lab7.cov2.png)
