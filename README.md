@@ -911,3 +911,5 @@ def test_csv_to_json_missing_file(tmp_path: Path):
     with pytest.raises(FileNotFoundError):
         csv_to_json(scr, dst)
 ```
+![01](./images/lab8.1)
+![02](./images/lab8.2)
